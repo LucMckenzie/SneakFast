@@ -58,3 +58,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+*.signature
+*.md
+*.meta
+*.json
+*.7z
+*.cs
+*.asmdef
