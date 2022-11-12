@@ -1,0 +1,2519 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.5f1 (3737af19df53) revision 3618735'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.2130; Version 2009; 64bit' Language: 'en' Physical Memory: 32730 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GameDev/SneakFast/SneakFast
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51622
+Successfully changed project path to: D:/GameDev/SneakFast/SneakFast
+D:/GameDev/SneakFast/SneakFast
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 181.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.5f1 (3737af19df53)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GameDev/SneakFast/SneakFast/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.15.1215
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.005898 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 137.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.083 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005645 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 246.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.824 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.6 MB.
+System memory in use after: 195.7 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 5009.
+Total: 3.232400 ms (FindLiveObjects: 0.317200 ms CreateObjectMapping: 0.302300 ms MarkObjects: 2.487200 ms  DeleteObjects: 0.124300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Entities/Enemies
+  artifactKey: Guid(25301f3129f57224290d1330fc8ea0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies using Guid(25301f3129f57224290d1330fc8ea0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb013d6eb2685e7cd9e8c63cfc8cbb5') in 0.007116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Entities
+  artifactKey: Guid(52dc3c8ff2ef2ce4e81f3a31fe4bc202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities using Guid(52dc3c8ff2ef2ce4e81f3a31fe4bc202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893bfd561de9e875421c533f9d59afec') in 0.001306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba22ae0ac60897579d434d058c88fe4a') in 1.323714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.126013 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d7847e04276a6e8fcd4bcbd142bc3e') in 0.018653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.152253 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a0d6d63e0f28badd9467bb772aefe2') in 0.022679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.173973 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef381e5e671916471eee9b39b0dba78') in 0.021115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.987506 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f596559e26c6c71aefc19f356f69588') in 0.023067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.602195 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0251c161eb455da6f7bceb1b3292ded') in 0.019932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.812614 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2c3abf0591c523c9e960b1c67df86d') in 0.022481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 384.524888 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dcd22617495e875dc5abd1e61a7ae6') in 0.027008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.331030 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b3df12443925b2310a60ad190c77f3') in 0.020784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.863599 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb640ca05c9b25d0c4505bfda6e36ac4') in 0.023231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.454104 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b505ce2e5952795ca91a91b094fae8') in 0.022329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.795811 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3a09b7b61874de86417c6330c8254b') in 0.031567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.589567 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f4ad2d6839d2acfec14acb23b47c89') in 0.018461 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003264 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.192 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.9 MB.
+System memory in use after: 195.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 5060.
+Total: 4.008200 ms (FindLiveObjects: 0.462500 ms CreateObjectMapping: 0.484400 ms MarkObjects: 2.900000 ms  DeleteObjects: 0.159400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004188 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.173 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.0 MB.
+System memory in use after: 195.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5064.
+Total: 5.388200 ms (FindLiveObjects: 1.073600 ms CreateObjectMapping: 0.431100 ms MarkObjects: 3.757000 ms  DeleteObjects: 0.125500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003431 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.159 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.1 MB.
+System memory in use after: 195.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5068.
+Total: 3.111200 ms (FindLiveObjects: 0.334200 ms CreateObjectMapping: 0.257900 ms MarkObjects: 2.407200 ms  DeleteObjects: 0.110400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.323 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.1 MB.
+System memory in use after: 195.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5072.
+Total: 5.007200 ms (FindLiveObjects: 0.340700 ms CreateObjectMapping: 0.517200 ms MarkObjects: 4.020500 ms  DeleteObjects: 0.127300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 502.373412 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4847545fe3084db89345fc35cd14dd97') in 0.874412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.036748 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3cebbc5ca722b817036920a4826c33e') in 0.021447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.084198 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a389a4a711e8a7a1c614310a378efb') in 0.019404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.608829 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d892e4f4dc3483daaa25468f6de53fb') in 0.022223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.631452 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d25dd8110b99e8fe6b17960f4ae353') in 0.022957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.203445 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d91b95c75b579e11e6d805e8131966') in 0.019569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.026865 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36da96ed04378232a0ec7a9f51c081af') in 0.018718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.039274 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe09a14948deaf2f301727b47490084') in 0.020249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.387240 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1df3fb0d85acdedeaac0364583691c') in 0.024561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.050137 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6f8e6cc011ce5faa10af19fbb6ba5d') in 0.022761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.876201 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a71eb322030bdd267786375b46796d') in 0.022500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.836827 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec482908dc325273d57f62fcf8fe6a8c') in 0.019283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.423229 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d8dd068c974be7a681d5cb759a1c10') in 0.027083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.481013 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fe777c1004a6e82cf5f8c126f78bbc') in 0.031925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.832817 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c68a1c1f9ce15cd7f9553c1281bdb02') in 0.021003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.219587 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07427cfd82e4239f97741155b57ce1cb') in 0.019793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.414880 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466de59a16779b13af1b7e02a5743427') in 0.019431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.401953 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df427e375ebcc673fba04134651371e8') in 0.027480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.156450 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5b52302a82b4eb0886ae53a25c03cb') in 0.023228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.102949 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f5814fe8ecd1df26f1547f8256cfcc') in 0.021137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.662260 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca97b0880d9c9b69867c1aea989a6238') in 0.021075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.681068 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af66d7ddae67be1ce6e296e65e249a2f') in 0.027968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.540490 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e9027026b3367f3c4eded9137c6506') in 0.022099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.478463 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4425308427a27f56303390144621e4a9') in 0.031282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.992941 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dd6501a7fe621692bca8165a8fac25') in 0.019357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.986343 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ab21ab50054d40dc8e9c4c23565f78') in 0.018915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.647213 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0cb28aac99cfc08bfea4aec402e556') in 0.018291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.200515 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adf37d6d3d87744b4e22034f6c9c6d0') in 0.024113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.088621 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29c4bf1866ff6e3f08b9ec804f06fa1') in 0.022090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.669212 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd687da6baa14e5454dfbee6adc043294') in 0.021947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.382402 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a959721c6947c3ff130df2fbef72f85b') in 0.021352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.837047 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a1d1aaed60e87dd247581309621be9') in 0.020518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.882204 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b60b6ecd0ed15196103ccb8d9f3c50') in 0.020074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.404098 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439bc7afdbc054feabc270462bfdf37b') in 0.023125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.542883 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9905b7abe4a7bf7499daff3ad9e292') in 0.020622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.245245 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79eb60c79c80582cc7512d0cff4f3666') in 0.028694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.250947 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b06f003fec67bf7140d2f43b71aa16f') in 0.031281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.104884 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d68bb3db4601fff8d3ad403bd59105') in 0.018421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.963736 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7b6bd4b6509990d77f355ed88547ef') in 0.019185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.396475 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddb59dc6259f2c09ef2ee60dd909cb1') in 0.019342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.256360 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341ae7d927e0a7b33014ecc46d5d2f67') in 0.018603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.048043 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ecfde30bb2266db1d363c46d5e3c39') in 0.017566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.648949 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bba29cb9314bdb057ae46d8caf857d3') in 0.023595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.090828 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd92e7dd70551840da0fa8f865147b5') in 0.023744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.773158 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06c60f0096fce87c9ce8606e529d651') in 0.018686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.611507 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722b8ec0c0603369bba548d1cff6de93') in 0.018427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.206878 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a67a873cf0d8beec0356036e5254680') in 0.018692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.305968 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8436a0dbe50e58b42abdc31a4e264225') in 0.019116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 155.915262 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2becd4b8ae221a6519141adca4bb29a7') in 0.019449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.246072 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f36ea98d3dffdfbca22c73f89ef172') in 0.021230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.051924 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef20e87d81117e1466430e49bbc8ad45') in 0.022898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.427113 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55338170ef73201d57ecb2a162c80328') in 0.021733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1377.899981 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c69665a61db7d0c6ee624d9c7c6cbb5') in 0.023937 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.219 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.3 MB.
+System memory in use after: 195.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 5114.
+Total: 3.305300 ms (FindLiveObjects: 0.346600 ms CreateObjectMapping: 0.255000 ms MarkObjects: 2.526800 ms  DeleteObjects: 0.175900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003261 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.150 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.3 MB.
+System memory in use after: 195.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5118.
+Total: 3.100000 ms (FindLiveObjects: 0.330300 ms CreateObjectMapping: 0.236100 ms MarkObjects: 2.396000 ms  DeleteObjects: 0.136100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004054 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.412 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.3 MB.
+System memory in use after: 195.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5122.
+Total: 5.047300 ms (FindLiveObjects: 0.561400 ms CreateObjectMapping: 0.657400 ms MarkObjects: 3.710700 ms  DeleteObjects: 0.116300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 559.376667 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80ecc407f1b677f9e8f1ee34900a4c9') in 1.000424 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.446 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.4 MB.
+System memory in use after: 195.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 5164.
+Total: 3.588300 ms (FindLiveObjects: 0.378100 ms CreateObjectMapping: 0.307300 ms MarkObjects: 2.745600 ms  DeleteObjects: 0.156300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.292975 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387643313a445ac2558d34dff167ae3f') in 1.045570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.142584 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04a16b8ad766a3c362f5e419b5f58d5') in 0.024150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.075361 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcc62407b77e4dc88cb667aa97d4d29') in 0.019423 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.194 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.4 MB.
+System memory in use after: 195.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 5206.
+Total: 4.214400 ms (FindLiveObjects: 0.865400 ms CreateObjectMapping: 0.390900 ms MarkObjects: 2.769000 ms  DeleteObjects: 0.187700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003066 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.236 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.4 MB.
+System memory in use after: 195.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5210.
+Total: 4.089300 ms (FindLiveObjects: 0.362900 ms CreateObjectMapping: 0.277800 ms MarkObjects: 3.312300 ms  DeleteObjects: 0.134800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.4 MB.
+System memory in use after: 195.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5214.
+Total: 4.827700 ms (FindLiveObjects: 0.474800 ms CreateObjectMapping: 0.577500 ms MarkObjects: 3.654200 ms  DeleteObjects: 0.119800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003155 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.4 MB.
+System memory in use after: 195.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5218.
+Total: 7.976500 ms (FindLiveObjects: 0.348900 ms CreateObjectMapping: 4.011700 ms MarkObjects: 3.486200 ms  DeleteObjects: 0.127800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004223 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.4 MB.
+System memory in use after: 195.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5222.
+Total: 3.857200 ms (FindLiveObjects: 0.392500 ms CreateObjectMapping: 0.291200 ms MarkObjects: 3.026900 ms  DeleteObjects: 0.145700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003305 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.4 MB.
+System memory in use after: 195.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5226.
+Total: 3.569600 ms (FindLiveObjects: 0.366700 ms CreateObjectMapping: 0.307600 ms MarkObjects: 2.775200 ms  DeleteObjects: 0.119000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003435 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.210 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.4 MB.
+System memory in use after: 195.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5230.
+Total: 5.927500 ms (FindLiveObjects: 1.355500 ms CreateObjectMapping: 0.813800 ms MarkObjects: 3.633800 ms  DeleteObjects: 0.123100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003318 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.215 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.4 MB.
+System memory in use after: 195.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5234.
+Total: 3.341200 ms (FindLiveObjects: 0.397800 ms CreateObjectMapping: 0.277800 ms MarkObjects: 2.548000 ms  DeleteObjects: 0.116500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004432 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.4 MB.
+System memory in use after: 195.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5238.
+Total: 3.450800 ms (FindLiveObjects: 0.383800 ms CreateObjectMapping: 0.290000 ms MarkObjects: 2.651900 ms  DeleteObjects: 0.124300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003708 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.293 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.4 MB.
+System memory in use after: 195.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5242.
+Total: 3.214900 ms (FindLiveObjects: 0.339900 ms CreateObjectMapping: 0.241700 ms MarkObjects: 2.519400 ms  DeleteObjects: 0.112800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1244.785911 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb4d43ae18c8925928c337397a64799') in 0.964724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.669324 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263782948c4df5f384a3f1b88baa6d89') in 0.027395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.720831 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970695b61d06e91ee1d6925b19842369') in 0.053010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.201537 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fdab385d2d634e7f863aa851a404dc') in 0.037247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.844400 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b5c1387a9cf8f0d4e00335a73ed2e6') in 0.030507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.162778 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f9093eca379a82080d84c044c1cffa') in 0.034932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.636312 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7504464e2a6a1a58231ea56886aa95c5') in 0.028943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.541980 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d43a16433665257d0f88801c519a8e0') in 0.030636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.520021 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1670b75f9c701ec7dda5dafc5288626') in 0.027793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.445209 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e140aa219eeb2afefd871741f69af832') in 0.080540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.153198 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec67ac73beadb8bf23a971a8a3e1dee') in 0.028831 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003216 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.7 MB.
+System memory in use after: 195.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 5284.
+Total: 3.636600 ms (FindLiveObjects: 0.378400 ms CreateObjectMapping: 0.472500 ms MarkObjects: 2.611000 ms  DeleteObjects: 0.171800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003109 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.246 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.7 MB.
+System memory in use after: 195.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5288.
+Total: 3.834000 ms (FindLiveObjects: 0.431600 ms CreateObjectMapping: 0.286600 ms MarkObjects: 2.951000 ms  DeleteObjects: 0.163300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.442 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.6 MB.
+System memory in use after: 195.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5292.
+Total: 7.405400 ms (FindLiveObjects: 0.456700 ms CreateObjectMapping: 0.419600 ms MarkObjects: 6.228000 ms  DeleteObjects: 0.299300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 256.188813 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd88216ceb44d42a03cf72d6a209e26') in 1.159105 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004828 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.052 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.7 MB.
+System memory in use after: 195.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 5334.
+Total: 18.779800 ms (FindLiveObjects: 3.953000 ms CreateObjectMapping: 0.722400 ms MarkObjects: 12.201800 ms  DeleteObjects: 1.901400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003520 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.801 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.7 MB.
+System memory in use after: 195.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5338.
+Total: 8.691200 ms (FindLiveObjects: 0.507600 ms CreateObjectMapping: 0.387300 ms MarkObjects: 4.723200 ms  DeleteObjects: 3.072000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004391 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.740 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.8 MB.
+System memory in use after: 195.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5342.
+Total: 5.104000 ms (FindLiveObjects: 0.409800 ms CreateObjectMapping: 0.312000 ms MarkObjects: 4.258600 ms  DeleteObjects: 0.122500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1859.814251 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ada0407d69648e2285df420bcedc1ab') in 1.786236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.106189 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16e63e8cb72e725c333d864172e509e') in 0.038636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.953701 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae04d04f6f4113eaa826d3fa6be7cca') in 0.045537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.152421 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c005fe14180181f18a4cb97b8b5f86e7') in 0.044365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.048452 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e90be58692cf13f4da1f6cc20dd9f9') in 0.045922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.668714 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6c1d05fee5d0eecaf5cdc3ce96d52a') in 0.025112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.462861 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b95975202482d73da4aaa7163fcebb1') in 0.026179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.884745 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6737a9285c8d1c24900a1348a77252fd') in 0.034838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.279400 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb78620207eb5bf3149c7a3be935e36') in 0.036591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.444725 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eca06269f0ad1ef10c92353c2ac5c79') in 0.062819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.181117 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb740f7506a49159ed9a04c0881f1a0') in 0.034259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.453358 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5256e60b5f46458a950222f069422978') in 0.067032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.176505 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c943700ef3ca0802bf2eacb49a755ca') in 0.033787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.231262 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a8d1fc4e408c47548f4928981e900f') in 0.036544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.002280 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add2708daff25c1b349837fa1c09a914') in 0.023959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.556407 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77ecdb197966e507bcf2921176f4aff') in 0.039429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.249175 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffb9aefc716408642540e30758be5d0') in 0.027792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.931236 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7b76a11f7ac191a3767640de66cc13') in 0.040218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.745855 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90db330012fb101324ca36991fbcf2c8') in 0.034014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.035303 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e873f124c821b5338440a88f1ff0c0d') in 0.037145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.614294 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614ce08eb356026ca9786d5c6bc72784') in 0.032438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.839741 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c458ff88028f1a666e22b4825d0cdcd7') in 0.026306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.194697 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3d877e1b7c1fcf94ddfba313b9927f') in 0.031735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.714484 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf9ec93287c8a6fae557ce154704132') in 0.044994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.894242 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae8e6979bfb3c488313bbe881a79eaa') in 0.034561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.163435 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d1f714e0d98a5ca76c9bee3338d57f') in 0.027766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.426989 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4a01f6850ddcb5b99e2c1767395e1c') in 0.037163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.708691 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab5fd7f7183c9d575decb1c605b6262') in 0.032709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.811555 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4634a520dc4df659416d548de5c84f') in 0.063427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2352.086559 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7c6a802c8e435b72eb520ceac6eb5e') in 0.036053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.505239 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f813ff4b309cf6e61b53b51eea2926b') in 0.036339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.182664 seconds.
+  path: Assets/Entities/Enemies/GameObject.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/GameObject.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7e8ef99d25f01048bfd7af6489f3b6') in 0.007766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000915 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b880f46d7f95092c0de15f2ec5e21b4') in 0.032988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.968210 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fa6eed9e80144fe176f8cf4d86e048') in 0.036324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.059416 seconds.
+  path: Assets/Entities/Enemies/GameObject.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/GameObject.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b939239cea36177afa6922a5a385476') in 0.004508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.094344 seconds.
+  path: Assets/Entities/Enemies/Search Party.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/Search Party.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8cf0ce09edf899158c24b4a2e5e010') in 0.004720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.932772 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc539aaf3061cef0ce3e0aeb3c052fb') in 0.008099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.803927 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc64ec782fbb415a57f5e487897d76f3') in 0.006390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.596198 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b86abaed0c749a6971df00a766df5d') in 0.004252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.398077 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07d84aba84189cf4ad13bdf4ec6c17b') in 0.003455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.389170 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6ff8d7a3bd72a1548961b15ac873a7') in 0.003192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.838460 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0527b07db498ded68c926b8b6d6a81') in 0.004196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.370100 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0837d4cc38567f2ec976f85863cc95df') in 0.003154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.372994 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564eb560feb5c67478c0e43a913afc17') in 0.003875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.396378 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3e6a1136383a02d75e2f470aa9193b') in 0.004026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.007207 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d61c9d2f0a5edb6920c380e798065a2') in 0.008509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.397271 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d3192206e39af616c7aa523b6e5362') in 0.002976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.185446 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4457a3b973ff35619696fd1893a53f7') in 0.003372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.387946 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f6676f651ca582c255d06ff977341d') in 0.006451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.795508 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de400bc65e034d752148309f29cbf21') in 0.003828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.009802 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4907e0c3142f31c72d36caf3dbceae36') in 0.003617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.292807 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894f3ce9c7517ba02ec803c8aa9739d5') in 0.003851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.417148 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e2d7405b13e5e1215e69c48b24addf') in 0.013446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.087554 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0e5e87f97966ab03a9be9b140c86a9') in 0.006330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.370933 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9b90cb181adfa8fdcae3963564adb9') in 0.004241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.187335 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175d6d768c8f77d9f1e136cd8f33ea74') in 0.008772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.396200 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650f845bd4da3e53d812fa85a6a840f3') in 0.008995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.580814 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68eaa38a99edcab46a52ec0b8380c24a') in 0.006095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.586660 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abae2715e6a76cb5e27ce63a0d7d33aa') in 0.012944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.810010 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66dc63da5a3f3fe524a3baa634ad33da') in 0.010269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.845541 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff0c5e776924e7d01dc03ba00a242ae') in 0.004343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.049142 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8131c5030e5b60133fe330c5a6fb91') in 0.008344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.534046 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb03933035d378f8a9b7da511ac0ba3') in 0.003033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.788943 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7afed24056cc0a435f345bee5f85843') in 0.005646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.541595 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f5231544c3065f47d7675b38c48cbd') in 0.007715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.390549 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab33be482aff0702c62f3aa8e16885e') in 0.003939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.281070 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d4886effe83a332644d657fbb51224') in 0.010215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 160.880887 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1927d2d85834602ada06d3001694cf8') in 0.010517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 310.564104 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005780 seconds  code(4) message(Build asset version error: assets/entities/enemies/searchparty.prefab in SourceAssetDB has modification time of '2022-11-12T03:53:09.8669998Z' while content on disk has modification time of '2022-11-12T03:53:10.0703269Z')
+  ERROR: Build asset version error: assets/entities/enemies/searchparty.prefab in SourceAssetDB has modification time of '2022-11-12T03:53:09.8669998Z' while content on disk has modification time of '2022-11-12T03:53:10.0703269Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.206530 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f8031dc4d74f69e44701c0f1d70eed') in 0.010802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.383686 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cc2d5323b7a4f63110197b2a1f4633') in 0.009492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.609841 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434a2305828519b206ee93c8dd01647e') in 0.005194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.803344 seconds.
+  path: Assets/Entities/Enemies/SearchParty.prefab
+  artifactKey: Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/SearchParty.prefab using Guid(e88d304bff51e8543af8b580ceca9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e4bb99f09ff51813391b2f77169c69') in 0.012950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.418764 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b647b0e7ef019f9b5434c593a9211ad8') in 0.039949 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.396 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.9 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 5384.
+Total: 4.082600 ms (FindLiveObjects: 0.401400 ms CreateObjectMapping: 0.315100 ms MarkObjects: 3.161800 ms  DeleteObjects: 0.203100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007206 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.680 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.9 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5388.
+Total: 10.836000 ms (FindLiveObjects: 1.078000 ms CreateObjectMapping: 0.783200 ms MarkObjects: 8.848100 ms  DeleteObjects: 0.125300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2016.916297 seconds.
+  path: Assets/Entities/Enemies/NPCPatrol.prefab
+  artifactKey: Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Enemies/NPCPatrol.prefab using Guid(9467033ba604e85459c2d09d06417714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084bcb21eedef798b7b3e809a4f9d56a') in 1.491228 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.1 MB.
+System memory in use after: 196.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 5430.
+Total: 4.396600 ms (FindLiveObjects: 0.772300 ms CreateObjectMapping: 0.429300 ms MarkObjects: 3.038000 ms  DeleteObjects: 0.155900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003464 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.720 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.9 MB.
+System memory in use after: 196.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5434.
+Total: 3.966500 ms (FindLiveObjects: 0.428700 ms CreateObjectMapping: 0.624300 ms MarkObjects: 2.796100 ms  DeleteObjects: 0.116500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 739.720595 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ca255f3fd40953471b2e4c7474396f') in 0.038284 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004106 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.483 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.9 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5438.
+Total: 3.405100 ms (FindLiveObjects: 0.371400 ms CreateObjectMapping: 0.237300 ms MarkObjects: 2.659100 ms  DeleteObjects: 0.136300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.9 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5442.
+Total: 3.614300 ms (FindLiveObjects: 0.640300 ms CreateObjectMapping: 0.356200 ms MarkObjects: 2.487600 ms  DeleteObjects: 0.129100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003460 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.302 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.1 MB.
+System memory in use after: 196.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5446.
+Total: 3.838200 ms (FindLiveObjects: 0.402600 ms CreateObjectMapping: 0.328300 ms MarkObjects: 2.980900 ms  DeleteObjects: 0.125300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003166 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.1 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5450.
+Total: 6.706600 ms (FindLiveObjects: 0.404900 ms CreateObjectMapping: 0.362700 ms MarkObjects: 5.809700 ms  DeleteObjects: 0.128000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003564 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.371 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.1 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5454.
+Total: 4.204100 ms (FindLiveObjects: 0.465500 ms CreateObjectMapping: 0.422700 ms MarkObjects: 3.181600 ms  DeleteObjects: 0.132800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007373 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.760 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 4.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.1 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5458.
+Total: 4.165300 ms (FindLiveObjects: 0.386600 ms CreateObjectMapping: 0.409300 ms MarkObjects: 3.239400 ms  DeleteObjects: 0.128400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003435 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.798 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.1 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5462.
+Total: 5.829500 ms (FindLiveObjects: 1.718700 ms CreateObjectMapping: 0.459400 ms MarkObjects: 3.351200 ms  DeleteObjects: 0.298700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005172 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.353 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.1 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5466.
+Total: 4.320500 ms (FindLiveObjects: 0.447400 ms CreateObjectMapping: 0.339900 ms MarkObjects: 3.400100 ms  DeleteObjects: 0.132000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004373 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 10.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.879 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.1 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5470.
+Total: 9.229100 ms (FindLiveObjects: 0.455400 ms CreateObjectMapping: 0.764300 ms MarkObjects: 7.871900 ms  DeleteObjects: 0.135800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005926 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.566 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5474.
+Total: 3.558300 ms (FindLiveObjects: 0.414500 ms CreateObjectMapping: 0.325600 ms MarkObjects: 2.690800 ms  DeleteObjects: 0.126400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004509 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.404 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5478.
+Total: 5.502000 ms (FindLiveObjects: 0.410700 ms CreateObjectMapping: 0.305800 ms MarkObjects: 4.626700 ms  DeleteObjects: 0.157700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.873 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5482.
+Total: 4.085400 ms (FindLiveObjects: 0.451700 ms CreateObjectMapping: 0.486400 ms MarkObjects: 3.020900 ms  DeleteObjects: 0.125100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008086 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.669 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5486.
+Total: 3.690300 ms (FindLiveObjects: 0.428200 ms CreateObjectMapping: 0.346700 ms MarkObjects: 2.792300 ms  DeleteObjects: 0.121600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003935 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.434 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5490.
+Total: 4.056300 ms (FindLiveObjects: 0.463600 ms CreateObjectMapping: 0.375100 ms MarkObjects: 3.080900 ms  DeleteObjects: 0.135500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005539 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.510 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5494.
+Total: 7.438700 ms (FindLiveObjects: 3.497200 ms CreateObjectMapping: 0.414600 ms MarkObjects: 3.402500 ms  DeleteObjects: 0.123000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003392 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.369 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5498.
+Total: 3.556700 ms (FindLiveObjects: 0.421100 ms CreateObjectMapping: 0.309800 ms MarkObjects: 2.679900 ms  DeleteObjects: 0.144500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003427 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.450 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5502.
+Total: 3.827800 ms (FindLiveObjects: 0.492500 ms CreateObjectMapping: 0.405100 ms MarkObjects: 2.743400 ms  DeleteObjects: 0.185200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5506.
+Total: 4.236000 ms (FindLiveObjects: 0.544800 ms CreateObjectMapping: 0.394100 ms MarkObjects: 3.170300 ms  DeleteObjects: 0.125500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003369 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.535 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5510.
+Total: 7.194500 ms (FindLiveObjects: 1.899400 ms CreateObjectMapping: 2.340500 ms MarkObjects: 2.822600 ms  DeleteObjects: 0.130400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003294 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.451 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5514.
+Total: 9.105900 ms (FindLiveObjects: 0.557600 ms CreateObjectMapping: 0.434900 ms MarkObjects: 7.983300 ms  DeleteObjects: 0.129100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.991 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5518.
+Total: 4.864100 ms (FindLiveObjects: 0.496600 ms CreateObjectMapping: 0.376600 ms MarkObjects: 3.834400 ms  DeleteObjects: 0.154600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003232 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5522.
+Total: 4.294500 ms (FindLiveObjects: 0.518100 ms CreateObjectMapping: 0.343200 ms MarkObjects: 3.300200 ms  DeleteObjects: 0.131700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003650 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.258 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5526.
+Total: 4.543000 ms (FindLiveObjects: 0.460400 ms CreateObjectMapping: 0.698100 ms MarkObjects: 3.255600 ms  DeleteObjects: 0.127600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003182 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.223 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5530.
+Total: 3.882800 ms (FindLiveObjects: 0.405900 ms CreateObjectMapping: 0.361900 ms MarkObjects: 2.985000 ms  DeleteObjects: 0.129100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004823 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5534.
+Total: 5.839000 ms (FindLiveObjects: 0.431900 ms CreateObjectMapping: 0.360500 ms MarkObjects: 4.909800 ms  DeleteObjects: 0.135400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.235 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5538.
+Total: 7.027300 ms (FindLiveObjects: 2.610200 ms CreateObjectMapping: 0.446000 ms MarkObjects: 3.841700 ms  DeleteObjects: 0.128200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.279 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5542.
+Total: 4.842600 ms (FindLiveObjects: 0.459000 ms CreateObjectMapping: 0.466200 ms MarkObjects: 3.754200 ms  DeleteObjects: 0.161900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008025 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.673 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5546.
+Total: 6.227200 ms (FindLiveObjects: 0.453100 ms CreateObjectMapping: 1.002300 ms MarkObjects: 4.592800 ms  DeleteObjects: 0.177500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005640 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.012 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5550.
+Total: 3.851900 ms (FindLiveObjects: 0.412400 ms CreateObjectMapping: 0.294800 ms MarkObjects: 3.021700 ms  DeleteObjects: 0.121700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003425 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.160 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5554.
+Total: 3.652800 ms (FindLiveObjects: 0.419300 ms CreateObjectMapping: 0.305600 ms MarkObjects: 2.796500 ms  DeleteObjects: 0.130200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.408 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5558.
+Total: 5.813600 ms (FindLiveObjects: 0.501300 ms CreateObjectMapping: 0.320300 ms MarkObjects: 4.867700 ms  DeleteObjects: 0.123100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
