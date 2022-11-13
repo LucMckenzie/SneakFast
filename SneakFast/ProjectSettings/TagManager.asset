@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Body
   - NavPoint
+  - Pip
   layers:
   - Default
   - TransparentFX
