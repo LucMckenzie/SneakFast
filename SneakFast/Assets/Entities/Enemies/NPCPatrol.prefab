@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1716140702480004095}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Raycast Forward
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24,11 +24,41 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837728348329597178}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9193522518275890504}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1566465312543706371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 155003583494758473}
+  m_Layer: 2
+  m_Name: Raycasting Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &155003583494758473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566465312543706371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.5, y: 3.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9193522518275890504}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3135819119993115985
 GameObject:
@@ -40,7 +70,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3135819119993115984}
   - component: {fileID: 3135819119993115987}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Listen Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,7 +179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3135819120296820077}
   - component: {fileID: 3135819120296820076}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Point (1)
   m_TagString: NavPoint
   m_Icon: {fileID: 0}
@@ -232,7 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3135819120327940972}
   - component: {fileID: 3135819120327940975}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Point (4)
   m_TagString: NavPoint
   m_Icon: {fileID: 0}
@@ -314,7 +344,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3135819120376547539}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Patrol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,7 +382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3135819121027516747}
   - component: {fileID: 3135819121027516746}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Point (6)
   m_TagString: NavPoint
   m_Icon: {fileID: 0}
@@ -435,7 +465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3135819121277430638}
   - component: {fileID: 3135819121277430641}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Point (5)
   m_TagString: NavPoint
   m_Icon: {fileID: 0}
@@ -523,7 +553,7 @@ GameObject:
   - component: {fileID: 3135819121310111501}
   - component: {fileID: -2312121881595501595}
   - component: {fileID: 3075542203779051194}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NPCPatrol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -637,11 +667,13 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"PatrolPath","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.Vector3,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"ChasePath","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.Vector3,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"SearchPath","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.Vector3,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"CurrentTarget","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"TargetNumber","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"LastFacing","value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0,"$type":"UnityEngine.Quaternion"},"$version":"A"},{"name":"Speed","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"ReachedTarget","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"SearchPoint","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Player","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SensoryField","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"State","value":{"$content":"Patrol","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"TargetNumber","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"CurrentTarget","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"ReachedTarget","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Speed","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"SearchPoint","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Player","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SensoryField","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"State","value":{"$content":"Patrol","$type":"System.String"},"$version":"A"},{"name":"LastFacing","value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0,"$type":"UnityEngine.Quaternion"},"$version":"A"},{"name":"PlayerSpotted","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"PlayerNear","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Raycasting
+      Points","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 7765114806566444221, guid: e88d304bff51e8543af8b580ceca9f65, type: 3}
     - {fileID: 6608539575946221995, guid: 22f814688c0fa1f4ba8aa7759ed7045e, type: 3}
     - {fileID: 3075542203779051194}
+    - {fileID: 837728348329597178}
 --- !u!114 &3135819121310111501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -721,7 +753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3135819121404540354}
   - component: {fileID: 3135819121404540357}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Point (2)
   m_TagString: NavPoint
   m_Icon: {fileID: 0}
@@ -804,7 +836,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3135819121417379170}
   - component: {fileID: 3135819121417379173}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Point (0)
   m_TagString: NavPoint
   m_Icon: {fileID: 0}
@@ -887,7 +919,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3135819121452840556}
   - component: {fileID: 3135819121452840559}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Eye View
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -923,9 +955,9 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0
+  m_FalloffIntensity: 0.75
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.2
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -934,10 +966,10 @@ MonoBehaviour:
   m_LightOrder: 1
   m_OverlapOperation: 0
   m_NormalMapDistance: 3
-  m_NormalMapQuality: 2
+  m_NormalMapQuality: 1
   m_UseNormalMap: 0
   m_ShadowIntensityEnabled: 1
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 1
   m_ShadowVolumeIntensityEnabled: 1
   m_ShadowVolumeIntensity: 0.75
   m_Vertices:
@@ -973,7 +1005,7 @@ MonoBehaviour:
     m_Center: {x: 0, y: -0.00000011920929, z: 0}
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
   m_PointLightInnerAngle: 10
-  m_PointLightOuterAngle: 110
+  m_PointLightOuterAngle: 96.60216
   m_PointLightInnerRadius: 0
   m_PointLightOuterRadius: 15
   m_ShapeLightParametricSides: 5
@@ -996,7 +1028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3135819121593954766}
   - component: {fileID: 3135819121593954769}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Point (3)
   m_TagString: NavPoint
   m_Icon: {fileID: 0}
@@ -1078,7 +1110,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3135819121608130033}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Patroller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1100,36 +1132,6 @@ Transform:
   m_Father: {fileID: 3135819121310111498}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4418446175111154851
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4162079039085023144}
-  m_Layer: 0
-  m_Name: Raycast Peripheral Left
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4162079039085023144
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4418446175111154851}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 9193522518275890504}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6270632065887344229
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,7 +1141,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9193522518275890504}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: RayCasting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1158,12 +1160,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1716140702480004095}
-  - {fileID: 4162079039085023144}
-  - {fileID: 3937813551510375976}
+  - {fileID: 155003583494758473}
+  - {fileID: 2653025195546279255}
   m_Father: {fileID: 3135819121608130033}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7636956623878544854
+--- !u!1 &7839010773220784824
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1171,23 +1173,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3937813551510375976}
-  m_Layer: 0
-  m_Name: Raycast Peripheral Right
+  - component: {fileID: 2653025195546279255}
+  m_Layer: 2
+  m_Name: Raycasting Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3937813551510375976
+--- !u!4 &2653025195546279255
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7636956623878544854}
+  m_GameObject: {fileID: 7839010773220784824}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.5, y: 3.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9193522518275890504}

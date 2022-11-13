@@ -190,7 +190,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.7853982
+  m_Mass: 0.19634955
   m_LinearDrag: 1
   m_AngularDrag: 1
   m_GravityScale: 0
@@ -214,7 +214,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.25
 --- !u!114 &6608539575946221991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,7 +384,7 @@ Transform:
   m_GameObject: {fileID: 6608539576908949378}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 2683341242731756681}
   m_RootOrder: 2
@@ -468,9 +468,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ShadowGroup: 0
   m_HasRenderer: 1
-  m_UseRendererSilhouette: 0
+  m_UseRendererSilhouette: 1
   m_CastsShadows: 1
-  m_SelfShadows: 0
+  m_SelfShadows: 1
   m_ApplyToSortingLayers: 00000000
   m_ShapePath:
   - {x: -0.3914678, y: -0.31187773, z: 0}
@@ -483,7 +483,7 @@ MonoBehaviour:
   - {x: -0.025169611, y: -0.48863244, z: 0}
   m_ShapePathHash: 1169071385
   m_Mesh: {fileID: 0}
-  m_InstanceId: 40662
+  m_InstanceId: 54256
 --- !u!114 &6608539576908949377
 MonoBehaviour:
   m_ObjectHideFlags: 0
