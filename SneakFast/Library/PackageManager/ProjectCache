@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638032256720000000
-    m_Hash: 3025727948
+      ticks: 638039911342441930
+    m_Hash: 21297966
   m_LockFileStatus:
     m_FilePath: C:/Users/1017684/Documents/SneakFast/SneakFast/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638032256720000000
-    m_Hash: 3126867185
+      ticks: 638039911479279539
+    m_Hash: 1412113918
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -2930,6 +2930,57 @@ m_ResolvedPackages:
   - name: com.unity.modules.subsystems
     version: 1.0.0
   keywords: []
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.h8man.2d.navmeshplus@https://github.com/h8man/NavMeshPlus.git#master
+  testable: 0
+  isDirectDependency: 1
+  version: 0.2.12
+  source: 5
+  resolvedPath: C:\Users\1017684\Documents\SneakFast\SneakFast\Library\PackageCache\com.h8man.2d.navmeshplus@4a5aec0a09
+  assetPath: Packages/com.h8man.2d.navmeshplus
+  name: com.h8man.2d.navmeshplus
+  displayName: NavMeshPlus
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: NavMesh building components provide you with ability to create navigation
+    meshes that are generated automatically from your Scene geometry, which allows
+    characters to move intelligently around the game world.
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
   registry:
     id: 
     name: 
