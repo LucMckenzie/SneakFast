@@ -7,6 +7,9 @@ TagManager:
   - Body
   - NavPoint
   - Pip
+  - Canvas
+  - PipPoint
+  - Treasure
   layers:
   - Default
   - TransparentFX

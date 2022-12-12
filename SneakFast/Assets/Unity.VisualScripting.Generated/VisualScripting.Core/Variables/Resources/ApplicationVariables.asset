@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: ApplicationVariables
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerCharacter","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Pip","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SceneNumber","value":{"$content":1,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerCharacter","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Pip","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SceneNumber","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"EmptyPip","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 6608539575946221995, guid: 22f814688c0fa1f4ba8aa7759ed7045e, type: 3}
     - {fileID: 4864200862791882833, guid: df081af1897928841ae0d5900796f8e2, type: 3}
+    - {fileID: 4116513184497732515, guid: f4d3899163af1bd41909273cb922c1da, type: 3}
