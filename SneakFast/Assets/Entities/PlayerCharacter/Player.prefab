@@ -385,7 +385,7 @@ GameObject:
   - component: {fileID: 6608539575960198682}
   - component: {fileID: 6608539575960198683}
   m_Layer: 0
-  m_Name: FakeAmbience
+  m_Name: FakeAmbienceLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -624,7 +624,7 @@ MonoBehaviour:
   - {x: 0.08408193, y: -0.13576385, z: 0}
   m_ShapePathHash: 1324268097
   m_Mesh: {fileID: 0}
-  m_InstanceId: 85822
+  m_InstanceId: 44122
 --- !u!114 &6608539576908949377
 MonoBehaviour:
   m_ObjectHideFlags: 0

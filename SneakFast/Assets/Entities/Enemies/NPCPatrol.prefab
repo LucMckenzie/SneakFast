@@ -616,7 +616,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"SearchPath","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.Vector3,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"TargetNumber","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"CurrentTarget","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"ReachedTarget","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Speed","value":{"$content":60.0,"$type":"System.Single"},"$version":"A"},{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"State","value":{"$content":"Patrol","$type":"System.String"},"$version":"A"},{"name":"LastFacing","value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0,"$type":"UnityEngine.Quaternion"},"$version":"A"},{"name":"PlayerSpotted","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"PlayerNear","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"PlayerCanBeSeen","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Raycasting
       Points","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"InCollider","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.String,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"CDToLost","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"TNPatrol","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"TNChase","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"TNCatchUp","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"CDToLost","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"TNPatrol","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"TNChase","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"TNCatchUp","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Chasing","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 6608539575946221995, guid: 22f814688c0fa1f4ba8aa7759ed7045e, type: 3}
     - {fileID: 837728348329597178}
@@ -829,7 +829,7 @@ GameObject:
   - component: {fileID: 3135819121452840556}
   - component: {fileID: 3135819121452840559}
   m_Layer: 2
-  m_Name: Eye View
+  m_Name: Eye Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
