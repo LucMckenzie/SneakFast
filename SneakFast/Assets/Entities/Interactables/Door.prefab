@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 2162726825681906005}
   - component: {fileID: 2171405939918894951}
   - component: {fileID: -2910175245410946954}
-  - component: {fileID: 5956155565415952161}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -156,22 +155,6 @@ MonoBehaviour:
   m_ShapePathHash: 1415412005
   m_Mesh: {fileID: 0}
   m_InstanceId: 33394
---- !u!58 &5956155565415952161
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947596678681421320}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 1, y: 0}
-  serializedVersion: 2
-  m_Radius: 2
 --- !u!1 &5546192707995169650
 GameObject:
   m_ObjectHideFlags: 0
